@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design - Easy Tutorials</title>
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <section class="sub-header">
+        <nav> 
+            <a href="index.html"><img src="images/images/logo.png" alt="University Logo"></a>
+            <div class="nav-links" id="navLinks"> 
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul> 
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav> 
+        <h1>Our Certificate & Online Programs</h1>      
+    </section>
+
+<!--   Blog page --->
+    <section class = "blog-content">
+        <div class ="row">
+            <div class = "blog-left">
+                <img src = "images/images/certificate.jpg">
+                <h2>Our Certificate & Online Programs</h2>
+                <p>We provide many courses<br> certifications </p>
+                <br>
+                <p>We all know going to college is about more than going to class. Talk to your career services office to get a few recommendations on students with interesting internship placements, and then ask them to write about those periodically throughout the summer or after the internships finish and they’ve had a chance to reflect. This could also be a chance to build relationships with those companies that provide internships to start a pipeline between your college and companies from all industries.</p>
+                <br>
+                <p>
+                    We all know going to college is about more than going to class. Talk to your career services office to get a few recommendations on students with interesting internship placements, and then ask them to write about those periodically throughout the summer or after the internships finish and they’ve had a chance to reflect. This could also be a chance to build relationships with those companies that provide internships to start a pipeline between your college and companies from all industries.
+
+                </p>
+                <br>
+                <p>Eduford University took this concept and turned it into a way students could collaborate and make public playlists together during the pandemic, going above and beyond what any Zoom classroom could do for an in-person community feeling.     </p>
+               
+               
+                <div class = "comment-box">
+                    <h3>Leave a comment</h3>
+
+                    <form class  = "comment-form">
+                        <input type = "text" placeholder = "Enter Name">
+                        <input type = "email" placeholder = "Enter Email">
+                        <textarea rows = "5" placeholder = "Your comment">
+                        </textarea>
+                        <button type ="submit" class = "hero-btn red-btn">POST COMMENT</button>
+                    </form>
+                </div>
+            </div>
+            <div class = "blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>22</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Auto CAD</span>
+                    <span>31</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Footer -->
+    <section class="footer">
+        <h4>ABOUT US</h4>
+        <p>Learn more about our college, student ratings, and facilities.</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i> 
+            <i class="fa-brands fa-twitter"></i> 
+            <i class="fa-brands fa-instagram"></i> 
+            <i class="fa-brands fa-linkedin"></i> 
+        </div>
+        <p>Made with <i class="fa-regular fa-heart"></i> by Easy Tutorials</p>
+    </section>
+
+    <!-- JavaScript for Toggle Menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>
