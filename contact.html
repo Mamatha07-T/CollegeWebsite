@@ -20,20 +20,10 @@
 
     <!-- Header Section -->
     <section class="sub-header">
-        <nav> 
-            <a href="index.html"><img src="images/images/logo.jpg " alt="University Logo"></a>
-            <div class="nav-links" id="navLinks"> 
-                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
-                <ul> 
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="about.html">ABOUT</a></li>
-                    <li><a href="course.html">COURSE</a></li>
-                    <li><a href="blog.html">BLOG</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
-                </ul>
-            </div>
-            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
-        </nav> 
+
+
+      <div id="navbar"></div>
+
         <h1>CONTACT US</h1>      
     </section>
 <!-- contact us -->
@@ -47,22 +37,22 @@
             <div>
                 <i class  ="fa-solid fa-home"></i>
                 <span>
-                    <h5>XYZ Road,ABC Building</h5>
-                    <p>Hyderabad, Telangana, IN</p>
+                    <h5>Vishnu Educational Society</h5>
+                    <p>Bhimavaram, Andhra Pradesh, IN</p>
                 </span>
             </div>
 
             <div>
                 <i class  ="fa-solid fa-phone"></i>
                 <span>
-                    <h5>+1 2344589974</h5>
-                    <p>Monday to Saturday , 10AM to 6PM</p>
+                    <h5>+91 9876543210</h5>
+                    <p>Monday to Saturday , 8AM to 6PM</p>
                 </span>
             </div>
             <div>
                 <i class  ="fa-solid fa-envelope"></i>
                 <span>
-                    <h5>info@gmail.com</h5>
+                    <h5>info@svecw.edu.in</h5>
                     <p>Email us your query</p>
                 </span>
             </div>
@@ -85,28 +75,10 @@
 
 
     <!-- Footer -->
-    <section class="footer">
-        <h4>ABOUT US</h4>
-        <p>Learn more about our college, student ratings, and facilities.</p>
-        <div class="icons">
-            <i class="fa-brands fa-facebook"></i> 
-            <i class="fa-brands fa-twitter"></i> 
-            <i class="fa-brands fa-instagram"></i> 
-            <i class="fa-brands fa-linkedin"></i> 
-        </div>
-        <p>Made with <i class="fa-regular fa-heart"></i>!</p>
-    </section>
+    <div id="footer"></div>
 
     <!-- JavaScript for Toggle Menu -->
-    <script>
-        var navLinks = document.getElementById("navLinks");
-        function showMenu() {
-            navLinks.style.right = "0";
-        }
-        function hideMenu() {
-            navLinks.style.right = "-200px";
-        }
-    </script>
+   <script src="script.js"></script>
 
 </body>
 </html>

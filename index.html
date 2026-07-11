@@ -16,67 +16,115 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
+
+
 <body>
 
     <!-- Header Section -->
     <section class="header">
-        <nav> 
-            <a href="index.html"><img src="images/images/logo.jpg" alt="University Logo"></a>
-            <div class="nav-links" id="navLinks"> 
-                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
-                <ul> 
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="about.html">ABOUT</a></li>
-                    <li><a href="course.html">COURSE</a></li>
-                    <li><a href="blog.html">BLOG</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
-                </ul>
-            </div>
-            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
-        </nav>
+       <div id="navbar"></div>
         <div class="text-box">
-            <h1>World's Biggest University</h1>
-            <p>Making websites is now one of the easiest things in the world.</p>
+            <h1>SHRI VISHNU ENGINEERING COLLEGE FOR WOMEN</h1>
+            <p>University to be...</p>
             <a href="" class="hero-btn">Visit us to learn more</a>
         </div>        
     </section>
 
     <!-- Courses Section -->
-    <section class="course">
-        <h1>Courses We Offer</h1>
-        <p>Explore our diverse academic programs.</p>
-        <div class="row">
-            <div class="course-col">
-                <h3>Intermediate</h3>
-                <p>Some text related to intermediate courses.</p>
-            </div>
-            <div class="course-col">
-                <h3>Degree</h3>
-                <p>Some text related to degree programs.</p>
-            </div>
-            <div class="course-col">
-                <h3>Post Graduation</h3>
-                <p>Some text related to postgraduate studies.</p>
-            </div>
+   <section class="course">
+    <h1>Courses We Offer</h1>
+    <p>Explore our diverse academic programs.</p>
+
+     <div class="course-container">
+    <div class="course-slider" id="courseSlider">
+
+        <!-- Original Cards -->
+
+        <div class="course-col">
+            <h3>B.Tech</h3>
+            <p>Enroll in our B.Tech courses.</p>
         </div>
+
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>Explore our degree courses.</p>
+        </div>
+
+        <div class="course-col">
+            <h3>Post Graduation</h3>
+            <p>Explore our postgraduate programs.</p>
+        </div>
+
+        <div class="course-col">
+            <h3>B.Pharm</h3>
+            <p>Explore our B.Pharm programs.</p>
+        </div>
+
+        <div class="course-col">
+            <h3>PharmD</h3>
+            <p>Explore our PharmD courses.</p>
+        </div>
+
+        <div class="course-col">
+            <h3>Diploma</h3>
+            <p>Explore our diploma programs.</p>
+        </div>
+
+        <!-- Duplicate Cards -->
+
+        <div class="course-col">
+            <h3>B.Tech</h3>
+            <p>Enroll in our B.Tech courses.</p>
+        </div>
+
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>Explore our degree courses.</p>
+        </div>
+
+        <div class="course-col">
+            <h3>Post Graduation</h3>
+            <p>Explore our postgraduate programs.</p>
+        </div>
+
+        <div class="course-col">
+            <h3>B.Pharm</h3>
+            <p>Explore our B.Pharm programs.</p>
+        </div>
+
+        <div class="course-col">
+            <h3>PharmD</h3>
+            <p>Explore our PharmD courses.</p>
+        </div>
+
+        <div class="course-col">
+            <h3>Diploma</h3>
+            <p>Explore our diploma programs.</p>
+        </div>
+
+    </div>
+    </div>
+
+</section>
+
+</div>
     </section>
 
     <!-- Campus Section -->
     <section class="campus">
-        <h1>Our Global Campus</h1>
-        <p>We have international campuses.</p>
+        <h1>Our Campuses</h1>
         <div class="row">
             <div class="campus-col">
                 <img src="images/images/london.png" alt="London Campus">
-                <div class="layer"><h3>LONDON</h3></div>
+                <div class="layer"><h3>Narsapur, Telangana</h3></div>
             </div>
             <div class="campus-col">
                 <img src="images/images/newyork.png" alt="New York Campus">
-                <div class="layer"><h3>NEW YORK</h3></div>
+                <div class="layer"><h3>Bhimavaram, AP</h3></div>
             </div>
             <div class="campus-col">
                 <img src="images/images/washington.png" alt="Washington Campus">
-                <div class="layer"><h3>WASHINGTON</h3></div>
+                <div class="layer"><h3>Nizampet, Hyderabad</h3></div>
             </div>
         </div>
     </section>
@@ -87,17 +135,17 @@
         <p>We provide various student-friendly facilities.</p>
         <div class="row">
             <div class="facilities-col">
-                <img src="images/images/library.png" alt="Library">
+                <img src="images/images/library.jpg" alt="Library">
                 <h3>World-Class Library</h3>
                 <p>Our library provides a vast collection of books and resources.</p>
             </div>
             <div class="facilities-col">
-                <img src="images/images/basketball.png" alt="Playground">
-                <h3>Largest Playground</h3>
+                <img src="images/images/basketball.jpeg" alt="Playground">
+                <h3> Playground</h3>
                 <p>Our playground is designed for various sports activities.</p>
             </div>
             <div class="facilities-col">
-                <img src="images/images/cafeteria.png" alt="Cafeteria">
+                <img src="images/images/cafeteria.jpg" alt="Cafeteria">
                 <h3>Tasty and Healthy Food</h3>
                 <p>Our cafeteria offers nutritious meals for students.</p>
             </div>
@@ -112,8 +160,8 @@
             <div class="testimonial-col">
                 <img src="images/images/user1.jpg" alt="Christine Berkley">
                 <div>
-                    <p>Very good testimonials. Good to hear.</p>
-                    <h3>Christine Berkley</h3>
+                    <p>The practical learning approach and well-equipped laboratories helped me develop strong technical skills. I highly recommend this institution to aspiring students.</p>
+                    <h3>Emily Brown</h3>
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
@@ -124,8 +172,14 @@
             <div class="testimonial-col">
                 <img src="images/images/user2.jpg" alt="Christiana">
                 <div>
-                    <p>Very good testimonials. Good to hear.</p>
-                    <h3>Christiana</h3>
+                    <p>I had an amazing learning experience here. The supportive faculty and career guidance sessions helped me prepare confidently for placements.</p>
+                    <h3>James Carter</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+
                 </div>
             </div>
         </div>
@@ -133,33 +187,12 @@
 
     <!-- Call to Action -->
     <section class="cta">
-        <h1>Enroll in Our Online Courses <br>From Anywhere in the World</h1>
+        <h1>Enroll in Our Courses <br>From Anywhere in the World</h1>
         <a href="#" class="hero-btn">Contact Us</a>
     </section>
 
     <!-- Footer -->
-    <section class="footer">
-        <h4>ABOUT US</h4>
-        <p>Learn more about our college, student ratings, and facilities.</p>
-        <div class="icons">
-            <i class="fa-brands fa-facebook"></i> 
-            <i class="fa-brands fa-twitter"></i> 
-            <i class="fa-brands fa-instagram"></i> 
-            <i class="fa-brands fa-linkedin"></i> 
-        </div>
-        <p>Made with <i class="fa-regular fa-heart"></i>!</p>
-    </section>
-
-    <!-- JavaScript for Toggle Menu -->
-    <script>
-        var navLinks = document.getElementById("navLinks");
-        function showMenu() {
-            navLinks.style.right = "0";
-        }
-        function hideMenu() {
-            navLinks.style.right = "-200px";
-        }
-    </script>
-
+  <div id="footer"></div>
+<script src="script.js"></script>
 </body>
 </html>

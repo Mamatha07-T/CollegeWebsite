@@ -20,44 +20,58 @@
 
     <!-- Header Section -->
     <section class="sub-header">
-        <nav> 
-            <a href="index.html"><img src="images/images/logo.jpg" alt="University Logo"></a>
-            <div class="nav-links" id="navLinks"> 
-                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
-                <ul> 
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="about.html">ABOUT</a></li>
-                    <li><a href="course.html">COURSE</a></li>
-                    <li><a href="blog.html">BLOG</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
-                </ul>
-            </div>
-            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
-        </nav> 
+       <div id="navbar"></div>
+
         <h1>OUR COURSES</h1>      
     </section>
 
     <!--course--->
 
-    <!-- Courses Section -->
-    <section class="course">
-        <h1>Courses We Offer</h1>
-        <p>Explore our diverse academic programs.</p>
-        <div class="row">
-            <div class="course-col">
-                <h3>Intermediate</h3>
-                <p>Some text related to intermediate courses.</p>
-            </div>
-            <div class="course-col">
-                <h3>Degree</h3>
-                <p>Some text related to degree programs.</p>
-            </div>
-            <div class="course-col">
-                <h3>Post Graduation</h3>
-                <p>Some text related to postgraduate studies.</p>
-            </div>
+
+  <section class="course">
+    <h1>Courses We Offer</h1>
+    <p>Choose from a wide range of academic programs designed to build your future.</p>
+
+    <div class="row">
+
+        <div class="course-col">
+            <h3>B.Tech</h3>
+            <p>Industry-focused engineering programs with modern laboratories and experienced faculty.</p>
         </div>
-    </section>
+
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>Undergraduate programs in Science, Commerce, and Arts with practical learning.</p>
+        </div>
+
+        <div class="course-col">
+            <h3>Post Graduation</h3>
+            <p>Advanced master's programs designed for research and professional excellence.</p>
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="course-col">
+            <h3>B.Pharm</h3>
+            <p>Comprehensive pharmaceutical education with laboratory and clinical exposure.</p>
+        </div>
+
+        <div class="course-col">
+            <h3>Pharm.D</h3>
+            <p>Doctor of Pharmacy program focused on patient care and clinical practice.</p>
+        </div>
+
+        <div class="course-col">
+            <h3>Diploma</h3>
+            <p>Skill-oriented diploma programs that prepare students for industry careers.</p>
+        </div>
+
+    </div>
+</section>
+
+
 
     <!-- Facilities Section -->
     <section class="facilities">
@@ -65,17 +79,17 @@
         <p>We provide various student-friendly facilities.</p>
         <div class="row">
             <div class="facilities-col">
-                <img src="images/images/library.png" alt="Library">
+                <img src="images/images/library.jpg" alt="Library">
                 <h3>World-Class Library</h3>
                 <p>Our library provides a vast collection of books and resources.</p>
             </div>
             <div class="facilities-col">
-                <img src="images/images/basketball.png" alt="Playground">
+                <img src="images/images/basketball.jpeg" alt="Playground">
                 <h3>Largest Playground</h3>
                 <p>Our playground is designed for various sports activities.</p>
             </div>
             <div class="facilities-col">
-                <img src="images/images/cafeteria.png" alt="Cafeteria">
+                <img src="images/images/cafeteria.jpg" alt="Cafeteria">
                 <h3>Tasty and Healthy Food</h3>
                 <p>Our cafeteria offers nutritious meals for students.</p>
             </div>
@@ -84,28 +98,10 @@
 
     
     <!-- Footer -->
-    <section class="footer">
-        <h4>ABOUT US</h4>
-        <p>Learn more about our college, student ratings, and facilities.</p>
-        <div class="icons">
-            <i class="fa-brands fa-facebook"></i> 
-            <i class="fa-brands fa-twitter"></i> 
-            <i class="fa-brands fa-instagram"></i> 
-            <i class="fa-brands fa-linkedin"></i> 
-        </div>
-        <p>Made with <i class="fa-regular fa-heart"></i>!</p>
-    </section>
+   <div id="footer"></div>
 
     <!-- JavaScript for Toggle Menu -->
-    <script>
-        var navLinks = document.getElementById("navLinks");
-        function showMenu() {
-            navLinks.style.right = "0";
-        }
-        function hideMenu() {
-            navLinks.style.right = "-200px";
-        }
-    </script>
+ <script src="script.js"></script>
 
 </body>
 </html>
